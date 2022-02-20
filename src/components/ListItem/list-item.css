@@ -1,0 +1,27 @@
+.list-item{
+    display: flex;
+    gap: 10px;
+}
+.list-item-info{
+    display: flex;
+    flex-grow: 1;
+    gap: 5px;
+}
+
+.list-item-title,
+.list-item-id{
+    margin: 0;
+}
+.list-item-controllers{
+    display: flex;
+}
+.item-controller{
+    display: flex;
+    align-content: center;
+    padding: 0 5px;
+    cursor: pointer;
+    user-select: none;
+}
+.item-controller:hover{
+    background-color: aquamarine;
+}
