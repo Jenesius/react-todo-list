@@ -14,6 +14,7 @@ export class ListItem extends React.Component {
 				<div className = 'list-item-info'>
 					<p className = 'list-item-title'>{ this.props.name }</p>
 					<p className = 'list-item-id'>{ this.props.id }</p>
+					<p className = 'list-item-count'>{ this.props.count }</p>
 				</div>
 				<div className = 'list-item-controllers'>
 					<div className = 'item-controller'
